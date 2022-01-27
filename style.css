@@ -1,0 +1,36 @@
+.container{
+    border:5px solid red;
+    height: 900px;
+}
+.parent{
+    border:5px teal;
+    height: 400px;
+    /* background-color:teal; */
+}
+.child-1{
+    
+    background-color:orange;
+    position:sticky;
+    z-index: 1;
+
+    /* z-index -1 dile nich diye jabe ar position sticky korle maximum or parent porjonto fixed thakbe onno dike
+    fixed korle puro website e fixed thake */
+    top: 10px;
+   
+    
+}
+.child-2{
+    background-color: pink;
+}
+.child-3{
+    background-color: navy;
+    z-index: 2;
+}
+.contain{
+    position:sticky;
+    background-color:rgb(238, 84, 23);
+    z-index: -1;
+    /* ekhane rgba er moto kaj kore scroll korle nicher paragraph dekha jai, keno nah egula div nah */
+    bottom: 10px;
+
+}
